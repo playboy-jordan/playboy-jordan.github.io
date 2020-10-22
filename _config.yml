@@ -14,7 +14,7 @@ description: 本站是白贺的技术分享博客。内容涵盖生活故事、P
 keywords: 个人博客,大数据学习之路,亚马逊广告api,Java知识分享,PHP后端成长,Python成长路线,mac研发,PHPer成长路线,技术分享
 encoding: "utf-8"
 favicon: favicon.png
-static-url: https://static.studytime.xin/studytime-Blog
+#static-url: https://static.studytime.xin/studytime-Blog
 
 repository: playboy-jordan/playboy-jordan.github.io
 github_url: https://playboy-jordan.github.io/
