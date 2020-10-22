@@ -10,7 +10,7 @@ title:  独狼日记
 subtitle: 分享技术，品味人生
 name: 独狼日记
 email: jordanleesvip@163.com
-description: 本站是白贺的技术分享博客。内容涵盖生活故事、PHP后端技术、Java后端技术、大数据、大数据生态、bigData、Spring Boot、微服务架构、高可用架构等相关的研究与知识分享。
+description: 本站是独狼的技术分享博客。内容涵盖生活故事、PHP后端技术、Java后端技术、大数据、大数据生态、bigData、Spring Boot、微服务架构、高可用架构等相关的研究与知识分享。
 keywords: 个人博客,大数据学习之路,亚马逊广告api,Java知识分享,PHP后端成长,Python成长路线,mac研发,PHPer成长路线,技术分享
 encoding: "utf-8"
 favicon: favicon.jpg
@@ -118,6 +118,16 @@ navs:
         subLabel: Python技术
       - subHref: /python-base.html
         subLabel: Python基础
+        
+        #测试分类
+  - href: /test.html
+    label: 测试主目录
+    target: _self
+    subnav:
+      - subHref: /test.html
+        subLabel: 测试附目录1
+      - subHref: /test2.html
+        subLabel: 测试附目录2
 
   - href: /archives.html
     label: Archives
