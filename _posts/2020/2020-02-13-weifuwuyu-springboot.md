@@ -7,7 +7,7 @@ excerpt: "本文主要介绍微服务与springboot的关系"
 在传统的项目中，一个系统的所有功能都是放在一个项目中，但是微服务是把一些主要的功能给分出来，独立成一个小项目，然后通过一些网络协议把这些小项目给连接起来，然后组成一个完成的项目。比如开发一个商城，传统的做法就是商品搜索，支付等功能都放在一个系统中开发，但是微服务就是商品搜索一个项目，支付一个项目，最后通过网络协议把它合并成一个完成的项目。这样做的好处就是升级好升级，比如，按照传统的做法，假如我们只是想升级支付功能，但是由于都在一个系统中，我们重新部署项目的时候，也需要再把商品搜索部分的代码也部署一遍。但是对于微服务，我们局不一样了，我们只需要把支付功能相关的代码改好，然后把支付能功能部分的项目部署上去就行了，这样就饿可以避免我们在升级支付功能的时候对商品搜过功能部门产生不必要的麻烦。 
 将该包及其子包都纳入springn的管理。如果我们用ssm的话，我们需要手动的把控制器（以及其他需要的类）的包手动通过xml文件来配置到scan扫描器(即放到spring容器中)。 接下来，我们来看下@EnableAutoConfiguration中的第二个主要注解：@Import(AutoConfigurationImportSelector.class),这注解我们可以跟第一个主要注解@AutoConfigurationPackage来对比着看，@AutoConfigurationPackage主要是把我们写的代码自动放入到spring容器中管理，而@Import(AutoConfigurationImportSelector.class)主要是把一些第三方依赖给我们自动导入项目中。 
  
-![](https://img-blog.csdnimg.cn/20200213174817638.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDg1MzY2OQ==,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20200213174817638.png)
 上图是从spring官网截取的一张图，在SpringBoot上面的单词build,这个意味着我们的每一个微小的服务都是通过springboot建立的，而springClould下面的coordinate意味着一个微服务想要跟另一个微服务产生的联系的时候，就用这个。而SpringCloudDataFlow主要是用来做并行计算的，目前还没有用过，后期有待加强。
 用Springboot主要有以下几个优点：
 1、简化了j2ee的开发。
