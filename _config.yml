@@ -87,8 +87,8 @@ navs:
     label: Java
     target: _self
     subnav:
-      - subHref: /spring-boot.html
-        subLabel: Spring Boot
+      - subHref: /springboot.html
+        subLabel: Spring Boot 
 
   - href: /bigdata.html
     label: Bigdata
