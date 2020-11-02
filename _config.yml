@@ -181,7 +181,7 @@ google:
 comments_provider: gitalk
 
 gitalk:
-  owner: jordanlee
-  repo:  blog-comments
-  clientID: f2951c434919f3ebb0da
-  clientSecret: 3846a22cae7d971aa40ae159b53c3152f9ff6cd2
+  owner: playboy-jordan
+  repo:  blog_gitalk
+  clientID: 7166a7265487328c446c
+  clientSecret: 0e7882dab43d7f9dcb9415bceebb61d501376bf9
