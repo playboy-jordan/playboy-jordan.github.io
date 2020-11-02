@@ -181,7 +181,7 @@ google:
 comments_provider: gitalk
 
 gitalk:
-  owner: mystudytime
+  owner: jordanlee
   repo:  blog-comments
   clientID: f2951c434919f3ebb0da
   clientSecret: 3846a22cae7d971aa40ae159b53c3152f9ff6cd2
