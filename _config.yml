@@ -118,17 +118,8 @@ navs:
         subLabel: Python技术
       - subHref: /python-base.html
         subLabel: Python基础
-        
-        #测试分类
-  - href: /test.html
-    label: 测试主目录
-    target: _self
-    subnav:
-      - subHref: /test.html
-        subLabel: 测试附目录1
-      - subHref: /test2.html
-        subLabel: 测试附目录2
-
+  
+  #显示全部文章
   - href: /archives.html
     label: Archives
 
