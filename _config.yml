@@ -89,16 +89,18 @@ navs:
       - subHref: /springboot.html
         subLabel: Spring Boot 
 
-  - href: /bigdata.html
-    label: Bigdata
+  - href: /html.html
+    label: 前端教程
     target: _self
     subnav:
-      - subHref: /bigdata.html
-        subLabel: 大数据
-      - subHref: /hive.html
-        subLabel: Hive
-      - subHref: /spark.html
-        subLabel: Spark
+      - subHref: /html.html
+        subLabel: html教程
+      - subHref: /css.html
+        subLabel: css教程
+      - subHref: /js.html
+        subLabel: js教程
+      - subHref: /jq.html
+        subLabel: jQuery教程
 
   - href: /PHP.html
     label: PHP
