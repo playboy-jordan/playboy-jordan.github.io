@@ -102,7 +102,7 @@ navs:
       - subHref: /jq.html
         subLabel: jQuery教程
 
-  - href: /PHP.html
+  #- href: /PHP.html
     label: PHP
     target: _self
     subnav:
@@ -111,7 +111,7 @@ navs:
       - subHref: /Laravel.html
         subLabel: Laravel
 
-  - href: /python.html
+  #- href: /python.html
     label: Python
     target: _self
     subnav:
