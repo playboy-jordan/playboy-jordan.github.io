@@ -7,3 +7,5 @@ gem 'kramdown'
 gem 'jekyll-github-metadata'
 gem 'jekyll-octicons'
 gem 'jekyll-sitemap'
+gem 'github-pages', group: :jekyll_plugins
+gem 'html-proofer', '~> 3.7.0'
