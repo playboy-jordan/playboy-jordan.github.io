@@ -26,6 +26,7 @@ baseurl: ''
 enforce_ssl: https://blog.studytime.xin
 static-url-version: 20200315
 
+github: [metadata]
 ## Gem
 plugins:
   - jekyll-paginate
